@@ -14,7 +14,10 @@ export default function Kartica(props) {
       <div className="slikaContainer">
         <img src={image} className="slika" alt="slika" />
       </div>
-      <p className="naslov">{price}</p>
+     
+      <p className="naslov1">PRICE</p>
+      <p className="naslov">{(Math.round((price) * 100) / 100).toFixed(2)}$
+      </p>
       <div
         className="dugme"
         value={props.artikal}

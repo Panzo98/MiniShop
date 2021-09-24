@@ -4,7 +4,21 @@
   background-color: blue;
   position: fixed;
   top: 0px;
+  display: flex;
   z-index: 1;
+}
+.homeLabel{
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 20px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  bottom: auto;
+  cursor: pointer;
 }
 .korpica {
   width: 30px;

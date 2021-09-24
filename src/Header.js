@@ -4,7 +4,7 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import IconButton from "@material-ui/core/IconButton";
 import Badge from "@material-ui/core/Badge";
 import Korpica from "./Korpica";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route , Redirect} from "react-router-dom";
 import "./Header.css";
 
 const StyledBadge = withStyles((theme) => ({
@@ -21,6 +21,7 @@ export default function Header({ cartItems, setCartItems }) {
   //console.log(cartItems);
   return (
     <div className="header">
+      <div className="homeLabel" onClick={event =>  window.location.href='/'}>MiniShop</div>
       {otvorena ? (
         <Korpica
           cartItems={cartItems}

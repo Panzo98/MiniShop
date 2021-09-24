@@ -6,6 +6,36 @@
   min-height: 900px;
   overflow: scroll;
 }
+.scrollDiv{
+  margin-top: 50px;
+  display: flow-root;
+  background-color: gainsboro;
+  width: 100%;
+  min-height: 400px;
+  overflow: scroll;
+}
+.dugmeCheckout{
+  max-width: 400px;
+  background-color: red;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ border-radius: 45px;
+ font-size: 40px;
+ color: ghostwhite;
+ vertical-align: middle;
+ min-height: 70px;
+ margin-bottom: 100px;
+}
+.dugmeCheckout:hover{
+  background-color: turquoise;
+  cursor: pointer;
+}
+.centriranjeTeksta{
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
 .nazivi {
   display: list-item;
 }
@@ -34,10 +64,12 @@
 }
 .smanjiKolicinu:hover {
   background-color: turquoise;
+  cursor: pointer;
 }
 .smanjiKolicinuCenter {
   margin-top: 10px;
 }
+
 .prikazivanjeKolicineDiv {
   width: 40px;
   height: 40px;
@@ -59,6 +91,7 @@
   margin-bottom: auto;
 }
 .itemCard {
+  position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 70%;
@@ -88,6 +121,7 @@
   max-height: 100px;
 }
 .nazivCheckout {
+  position: relative;
   width: 100%;
   max-width: 410px;
   min-width: 410px;

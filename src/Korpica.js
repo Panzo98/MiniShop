@@ -36,17 +36,14 @@ export default function Korpica({
           })}
         </div>
         <div className="checkoutDugme" onClick={() => setOtvorena(!otvorena)}>
-          <Link
-            to={{
-              pathname: "/checkout",
-
-              cartItems: { cartItems },
-              setCartItems: { setCartItems },
-            }}
-            style={{ textDecoration: "none", color: "white" }}
-          >
-            CHECKOUT
-          </Link>
+        <Link 
+              to={{
+                pathname: "/checkout", 
+                query:{setCartItems: { setCartItems }}
+              }}  style={{ textDecoration: "none", color: "white" }}>
+              CHECKOUT 
+            </Link>
+          
         </div>
       </div>
     </>

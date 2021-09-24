@@ -17,7 +17,15 @@
   width: 80%;
   margin-left: 10%;
   max-width: 20ch;
-  height: 40px;
+  height: 20px;
+}
+.naslov1 {
+  margin-top: 20px;
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  max-width: 20ch;
 }
 .slikaContainer {
   width: 100%;

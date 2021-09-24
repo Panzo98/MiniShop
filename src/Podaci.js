@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Prikazivanje from "./Prikazivanje";
 import { makeStyles } from "@material-ui/core/styles";
+import "./Podaci.css"
 import CircularProgress from "@material-ui/core/CircularProgress";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     "& > * + *": {
-      marginLeft: theme.spacing(2),
+      marginLeft: "45%",
     },
   },
 }));
@@ -37,7 +38,7 @@ export default function Podaci({ gotivnaFunkcija }) {
     return (
       <div className={classes.root}>
         <CircularProgress />
-        <CircularProgress style={{ padding: 300 }} color="secondary" />
+        <CircularProgress className="ucitavanjeAnimacija" color="secondary" />
       </div>
     );
   } else {
