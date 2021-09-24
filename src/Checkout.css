@@ -1,0 +1,98 @@
+.backgroundDiv {
+  margin-top: 50px;
+  display: flow-root;
+  background-color: gainsboro;
+  width: 100%;
+  min-height: 900px;
+  overflow: scroll;
+}
+.nazivi {
+  display: list-item;
+}
+.topMargin {
+  margin-top: 0px;
+}
+.inputKolicinaDiv {
+  background-color: gainsboro;
+  width: 120px;
+  display: inline-flex;
+  flex-direction: row;
+  height: 40px;
+  border-radius: 10px;
+}
+.smanjiKolicinu {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: red;
+  border-radius: 10px;
+}
+.smanjiKolicinu:hover {
+  background-color: turquoise;
+}
+.smanjiKolicinuCenter {
+  margin-top: 10px;
+}
+.prikazivanjeKolicineDiv {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cijenaDiv {
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.kolicinaDiv {
+  min-width: 120px;
+  max-width: 120px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.itemCard {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 120px;
+  border-radius: 15px;
+  margin-left: 15%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.itemSlika {
+  max-width: 90px;
+  max-height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: center;
+}
+.itmSlik {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 100px;
+}
+.nazivCheckout {
+  width: 100%;
+  max-width: 410px;
+  min-width: 410px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}

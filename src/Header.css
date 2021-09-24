@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.korpica {
+  width: 30px;
+  background-color: red;
+}
+.ikonica {
+  width: 70px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  position: fixed;
+  right: 0;
+}
+.ikonica:hover {
+  background-color: orange;
+}
+.indeks {
+  right: -3;
+  top: 13;
+  border: 2px solid;
+  padding: 0 4px #424242;
+}

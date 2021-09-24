@@ -1,0 +1,46 @@
+.slika {
+  max-width: 100px;
+  max-height: 125px;
+  display: block;
+  margin: auto;
+}
+.kartica {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  margin: 20px 8px;
+  border-radius: 11px;
+}
+.naslov {
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  max-width: 20ch;
+  height: 40px;
+}
+.slikaContainer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+.dugme {
+  position: relative;
+  bottom: 8px;
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: crimson;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.dugme:hover {
+  background-color: turquoise;
+  cursor: pointer;
+}
